@@ -1,0 +1,17 @@
+# Node 依赖（网关 nm8_api.cjs 依赖 ws）
+node_modules/
+
+# 构建产物（build_package.py 输出到桌面，不应进仓库）
+*.zip
+
+# 运行期日志（网关实时对局日志落盘目录）
+nm8_logs/
+
+# Python 编译缓存（py_compile / 运行产生）
+__pycache__/
+*.pyc
+
+# 操作系统垃圾文件
+.DS_Store
+Thumbs.db
+*.tmp
