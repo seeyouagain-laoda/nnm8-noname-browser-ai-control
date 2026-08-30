@@ -1242,6 +1242,8 @@ const extensionPackage = {
 	// 早期初始化：让 window.NM8 在对局开始前（甚至主菜单）就可用，并屏蔽 alert
 	precontent() {
 		buildAPI();
+		// NNM8 是本项目对外代号，与 NM8 完全等价（方便搜索/调用）：两个名字指向同一对象
+		try { window.NNM8 = window.NM8; } catch (e) {}
 		installAlertShield();
 		installErrorCapture();
 		integrateOfficial();

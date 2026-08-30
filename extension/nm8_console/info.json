@@ -1,7 +1,7 @@
 {
-	"name": "nm8_console",
+	"name": "NNM8 控制台 · 无名杀浏览器控制与AI自动对局",
 	"author": "WorkBuddy",
-	"intro": "AI 悬浮控制台：实时监控全场座位（武将/身份/体力/手牌/装备/判定/技能/状态），智能接管道具决策，内置 AI 自动驱动出牌，并对外暴露 window.NM8 全套控制接口，供外部 AI（HTTP 网关 / CDP / F12）驱动游戏。<li>监控：NM8.snapshot() / NM8.players()<li>接管：NM8.takeover() / NM8.setMode()<li>驱动：NM8.autoRun() / NM8.step() / NM8.decide()<li>操控：NM8.cheat.*（官方作弊）/ NM8.god.*（引擎原生）/ NM8.control.*（官方面板）<li>面板：F9 切换显示",
+	"intro": "NNM8（即无名杀 Noname 的 NM8 浏览器控制与 AI 自动对局控制台）。实时监控全场座位（武将/身份/体力/手牌/装备/判定/技能/状态），智能接管道具决策，内置 AI 自动驱动出牌，对外暴露 window.NM8 / window.NNM8 全套控制接口，供外部 AI（HTTP 网关 / CDP / F12）驱动游戏。<li>监控：NM8.snapshot() / NM8.players()<li>接管：NM8.takeover() / NM8.setMode()<li>驱动：NM8.autoRun() / NM8.step() / NM8.decide()<li>操控：NM8.cheat.*（官方作弊）/ NM8.god.*（引擎原生）/ NM8.control.*（官方面板）<li>面板：F9 切换显示",
 	"version": "3.4.0",
 	"diskURL": "",
 	"forumURL": ""
