@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+# ⚠️ 声明（AI 生成 · 仅供参考）：本代码由 AI 生成；仅适用于《无名杀》PC 版；
+# 仅测试过当前版本（诗笺版 Windows64 位 v1.75，引擎内部 1.11.5）；
+# 其他版本未验证，仅供参考，使用风险自负。
 """一次性拉起 8091 桥接服务 + 9222 调试 Chrome（均用 DETACHED，避免被沙箱回收）"""
 import subprocess, os, time, sys, urllib.request
 

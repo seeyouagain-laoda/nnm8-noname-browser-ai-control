@@ -1,3 +1,9 @@
+/*
+ * ⚠️ 声明（AI 生成 · 仅供参考）
+ * 本代码由 AI 生成；仅适用于《无名杀》PC 版；
+ * 仅测试过当前版本（诗笺版 Windows64 位 v1.75，引擎内部 1.11.5）；
+ * 其他版本未验证，仅供参考，使用风险自负。
+ */
 // 无名杀 NM8 —— 对外 AI 控制网关（HTTP JSON API）
 // 作用：把游戏内 window.NM8（cheat/god/decide/quickStart/autoRun/players/snapshot…）
 //       封装成标准 HTTP 接口，让其他 AI（OpenClaw / WorkBuddy / 任意 HTTP 客户端）
